@@ -1,5 +1,17 @@
+import Dashboard from "./components/Dashboard";
+import SideNav from "./Components/SideNav";
+
+//const API_KEY = import.meta.env.VITE_APP_API_KEY;
+
 function App() {
-  return <div className="bg-blue-500 text-white p-4">Hello, Tailwind!</div>;
+  return (
+    <div>
+      <div className="flex-1 p-6">
+        <SideNav />
+        <Dashboard />
+      </div>
+    </div>
+  );
 }
 
 export default App;
