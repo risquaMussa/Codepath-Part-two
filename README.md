@@ -2,9 +2,9 @@
 
 Submitted by: **Risqua Mussa**
 
-This web app: **Data Dashboard Part 1**
+This web app: **Data Dashboard Part 2**
 
-Time spent: **X** hours spent in total
+Time spent: **15** hours spent in total
 
 ## Required Features
 

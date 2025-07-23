@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./SideNav.css";
 //import SearchBar from "./SearchBar";
 //import Dashboard from "./Dashboard";
+import { Link, Outlet } from "react-router-dom";
 
 const SideNav = () => {
   //const [activeSection, setActiveSection] = useState("dashboard");
@@ -15,11 +16,21 @@ const SideNav = () => {
       </h1>
 
       <nav className="space-y-4">
-        <div className="hover:text-purple-200 cursor-pointer">🏠 Dashboard</div>
-        <div className="hover:text-purple-200 cursor-pointer">🔍 Search</div>
+        <Link
+          to="/"
+          className="cursor-pointer text-white hover:text-purple-200"
+        >
+          🏠 Dashboard
+        </Link>
+        <div className="-pointer text-white hover:text-purple-200">
+          🔍 Search
+        </div>
 
-        <div className="hover:text-purple-200 cursor-pointer">ℹ️ About</div>
+        <div className="cursor-pointer text-white hover:text-purple-200">
+          ℹ️ About
+        </div>
       </nav>
+      <Outlet />
     </div>
   );
 };
