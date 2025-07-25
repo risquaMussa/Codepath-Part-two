@@ -37,16 +37,14 @@ The following **additional** features are implemented:
 * [ x] List anything else that you added to improve the site's functionality!
 
 <div>
-    <a href="https://www.loom.com/share/4b7cc5b194e0405ba682c355c2aed4c6"
-    </a>
-    <a href="https://www.loom.com/share/4b7cc5b194e0405ba682c355c2aed4c6">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/4b7cc5b194e0405ba682c355c2aed4c6-deb2b7b63a0a6069-full-play.gif">
+    <a href="https://www.loom.com/share/f78f4310f4c0492f8882a246ea2b54d3">
+     </a>
+    <a href="https://www.loom.com/share/f78f4310f4c0492f8882a246ea2b54d3">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/f78f4310f4c0492f8882a246ea2b54d3-ac750d735a385bda-full-play.gif">
     </a>
   </div>
-
 Here's a walkthrough of implemented user stories:
-https://imgur.com/IDh5m3n.gif
-
+https://imgur.com/414R8pg.gif
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
