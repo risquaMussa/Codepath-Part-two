@@ -1,0 +1,34 @@
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.WeatherChart {
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 2rem;
+  border-radius: 1.5rem;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.15);
+  color: white;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.WeatherChart h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.2);
+}
+
+.recharts-wrapper text {
+  fill: white !important;
+  font-size: 14px;
+}
+
+.recharts-tooltip-wrapper {
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
