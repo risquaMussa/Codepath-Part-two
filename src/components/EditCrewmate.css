@@ -1,0 +1,53 @@
+.edit-crewmate-container {
+  max-width: none;
+  width: 100%;
+  margin-right: auto;
+  padding: 2rem 3rem;
+}
+
+.edit-crewmate-container h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.edit-crewmate-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.edit-crewmate-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 1rem;
+  color: white;
+}
+
+.edit-crewmate-form input {
+  margin-top: 0.25rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.edit-crewmate-form button {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.edit-crewmate-form button:hover {
+  background-color: #005fcc;
+}
